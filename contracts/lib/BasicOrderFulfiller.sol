@@ -52,7 +52,7 @@ contract BasicOrderFulfiller is OrderValidator {
      *      order to be eligible for fulfillment via this method, it must
      *      contain a single offer item (though that item may have a greater
      *      amount if the item is not an ERC721). An arbitrary number of
-     *      "additional recipients" may also be supplied which will each receive
+     *      "additional recipients" may also be supplied who will each receive
      *      native tokens or ERC20 items from the fulfiller as consideration.
      *      Refer to the documentation for a more comprehensive summary of how
      *      to utilize this method and what orders are compatible with it.
