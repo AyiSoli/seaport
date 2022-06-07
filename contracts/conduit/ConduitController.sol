@@ -13,7 +13,7 @@ import { Conduit } from "./Conduit.sol";
 /**
  * @title ConduitController
  * @author 0age
- * @notice ConduitController enables deploying and managing new conduits, or
+ * @notice ConduitController enables deployment and management of new conduits, or
  *         contracts that allow registered callers (or open "channels") to
  *         transfer approved ERC20/721/1155 tokens on their behalf.
  */
